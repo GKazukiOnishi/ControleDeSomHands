@@ -1,6 +1,6 @@
 # Gestos com a Mão Utilizando MediaPipe
 
-Este é um projeto que utiliza a biblioteca MediaPipe para reconhecimento de gestos da mão em tempo real. O projeto é capaz de reconhecer diferentes gestos da mão, como mão aberta, mão fechada, fazendo o sinal do L, sinal Hang-Loose, sinal Rock n Roll, dessa forma serão executadas ações correspondentes com base nos gestos reconhecidos.
+Este é um projeto que utiliza a biblioteca MediaPipe para reconhecimento de gestos da mão em tempo real. O projeto é capaz de reconhecer diferentes gestos da mão, como mão aberta, mão fechada, fazendo o sinal do L, sinal Hang-Loose, sinal Rock n Roll, 3 dedos levantados (Indicador, Dedo Médio e Anelar), dessa forma serão executadas ações correspondentes com base nos gestos reconhecidos.
 
 ## Funcionalidades
 
@@ -28,7 +28,12 @@ Este é um projeto que utiliza a biblioteca MediaPipe para reconhecimento de ges
 
 5. Uma janela será aberta mostrando a câmera. Coloque a sua mão dentro da área de visão da câmera e comece a fazer gestos para ver o reconhecimento em tempo real.
 
-Sina
+    Sinais:
+        
+        * Sinal 3 Dedos Levantados (Indicador, Dedo Médio e Anelar) = Pausar/Play na faixa;
+        * Sinal Hang-Loose = Retroceder a faixa;
+        * Sinal Rock n Roll = Avançar a faixa;
+        * Sinal L = Aumentar e diminuir volume (Abrindo o sinal do L, o volume aumentará. Fechando o sinal do L, o volume diminuirá.).
 
 6. Para sair do programa, basta clicar no ‘X’ para finalizar o programa.
 
