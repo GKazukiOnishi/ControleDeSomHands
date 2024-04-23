@@ -19,7 +19,7 @@ distanciaEmCM = [20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95,
 coeficienteAngular = np.polyfit(distanciaEmPixels, distanciaEmCM, 2)
 A,B,C = coeficienteAngular
 
-camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture('video_comandos7.mp4')
 camera.set(3, LARGURA_JANELA)
 camera.set(4, ALTURA_JANELA)
 

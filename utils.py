@@ -82,7 +82,7 @@ def defineVolume(volume):
   if volume > 70.00:
     teclado.press(Key.media_volume_up)
     teclado.release(Key.media_volume_up)
-
+      
   if volume < 20.00:
     teclado.press(Key.media_volume_down)
     teclado.release(Key.media_volume_down)
